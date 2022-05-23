@@ -13,4 +13,8 @@ public class Test {
     public int sum() {
         return b + c;
     }
+
+    public void i(){
+        System.out.println("S");
+    }
 }
