@@ -9,6 +9,7 @@ public class Test {
         System.out.println(test.sum());
     }
 
+
     public int sum() {
         return b + c;
     }
