@@ -9,12 +9,6 @@ public class Test {
         System.out.println(test.sum());
     }
 
-
-    public int sum() {
-        return b + c;
-    }
-
-
     public void i() {
         System.out.println("S");
 
