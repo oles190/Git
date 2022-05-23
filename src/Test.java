@@ -13,4 +13,8 @@ public class Test {
     public int sum() {
         return b + c;
     }
+
+    public void mn(){
+        System.out.println(b-c);
+    }
 }
