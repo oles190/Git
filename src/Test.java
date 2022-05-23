@@ -2,13 +2,13 @@ public class Test {
 
     int b = 10;
     int c = 22;
+    String str = "Hello git";
 
 
     public static void main(String[] args) {
         Test test = new Test();
         System.out.println(test.sum());
     }
-
 
     public int sum() {
         return b + c;
@@ -17,24 +17,14 @@ public class Test {
 
     public void i() {
         System.out.println("S");
+        System.out.println(str);
 
     }
 
-    public void minus() {
-
-
-        System.out.println(b - c);
+    public void test() {
+        System.out.println("yes");
     }
 
-
-
-    public int sum() {
-        return b + c;
-    }
-
-    public void mn() {
-        System.out.println(b - c);
-    }
 
 }
 
