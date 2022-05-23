@@ -2,6 +2,7 @@ public class Test {
 
     int b = 10;
     int c = 22;
+    String str = "Hello git";
 
 
     public static void main(String[] args) {
@@ -9,26 +10,21 @@ public class Test {
         System.out.println(test.sum());
     }
 
-    public void i() {
-        System.out.println("S");
-
-    }
-
-    public void minus() {
-
-
-        System.out.println(b - c);
-    }
-
-
-
     public int sum() {
         return b + c;
     }
 
-    public void mn() {
-        System.out.println(b - c);
+
+    public void i() {
+        System.out.println("S");
+        System.out.println(str);
+
     }
+
+    public void test() {
+        System.out.println("yes");
+    }
+
 
 }
 
