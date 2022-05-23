@@ -10,6 +10,12 @@ public class Test {
         System.out.println(test.sum());
     }
 
+
+    public void minus() {
+
+        System.out.println(b - c);
+    }
+
     public int sum() {
         return b + c;
     }
