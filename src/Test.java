@@ -10,10 +10,23 @@ public class Test {
     }
 
 
+    public int sum() {
+        return b + c;
+    }
+
+
+    public void i() {
+        System.out.println("S");
+
+    }
+
     public void minus() {
+
 
         System.out.println(b - c);
     }
+
+
 
     public int sum() {
         return b + c;
@@ -22,4 +35,6 @@ public class Test {
     public void mn() {
         System.out.println(b - c);
     }
+
 }
+
