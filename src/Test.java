@@ -20,10 +20,21 @@ public class Test {
 
     }
 
-    public void test() {
-        System.out.println("yes");
+    public void minus() {
+
+
+        System.out.println(b - c);
     }
 
+
+
+    public int sum() {
+        return b + c;
+    }
+
+    public void mn() {
+        System.out.println(b - c);
+    }
 
 }
 
