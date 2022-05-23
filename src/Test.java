@@ -9,21 +9,10 @@ public class Test {
         System.out.println(test.sum());
     }
 
-
     public int sum() {
         return b + c;
     }
 
-
-
-    public void test() {
-        System.out.println("yes");
-    }
-
-    static int a;
-
-    static {
-        a = 4;
 
     public int min() {
         return b - c;
