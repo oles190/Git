@@ -14,6 +14,17 @@ public class Test {
         return b + c;
     }
 
+
+
+    public void test() {
+        System.out.println("yes");
+    }
+
+    static int a;
+
+    static {
+        a = 4;
+
     public int min() {
         return b - c;
     }
