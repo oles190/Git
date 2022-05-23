@@ -24,6 +24,8 @@ public class Test {
         System.out.println("yes");
     }
 
+public void se(){
 
+}
 }
 
